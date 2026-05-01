@@ -117,8 +117,8 @@ with tabs[2]:
     """, unsafe_allow_html=True)
     
     with st.expander("💡 NEET + Allen Trivia"):
-        st.write("- **Tapetum** provides sporopollenin precursors and pollenkitt.")
-        st.write("- <span class="term" title="Highly resistant organic compound in pollen exine">Sporopollenin</span> is absent at the germ pores.", unsafe_allow_html=True)
+        st.write("- **Tapetum** provides sporopollenin precursors and pollenkitt."))
+        st.markdown('- <span class="term" title="Highly resistant...">Sporopollenin</span>...', unsafe_allow_html=True)
         st.write("- Pollen viability ranges from 30 mins (rice) to months (Rosaceae).")
         
     st.video("https://www.youtube.com/watch?v=B1B3h-L-l4M")
